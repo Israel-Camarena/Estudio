@@ -20,13 +20,13 @@ window.addEventListener('load', () =>{
 
     var stop = document.querySelector("#stop");
     stop.addEventListener("click", function(){
-        alert("has parado el bluque");
+        alert("has parado el bucle");
         clearInterval(tiempo);
     });
 
     var start = document.querySelector("#start");
     start.addEventListener("click", function(){
-        alert("has iniciado el bluque");
+        alert("has iniciado el bucle");
         intervalo();
     });
 });
